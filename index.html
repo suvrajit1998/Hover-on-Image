@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hover on Image</title>
+    <link rel="stylesheet" href="https://use.typekit.net/lpe8txe.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function() {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+  </head>
+  <body class="loading">
+    <div class="content">
+      <img
+        src="https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1503104834685-7205e8607eb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1514315384763-ba401779410f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1521577352947-9bb58764b69a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1440332013745-3a1357afa90c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1510706019500-d23a509eecd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1513619371302-207c0b203098?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1509156442665-f636f48b88bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1458544073930-041e1897663f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1513385581288-2e94adbbdbd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+        class="content__img"
+        alt=""
+      />
+    </div>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/demo.js"></script>
+  </body>
+</html>
